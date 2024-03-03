@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@0,200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 :root{
     --green:#27ae60;
@@ -7,9 +7,9 @@
 
 *{
     font-family: 'Nunito', sans-serif;
-    margin: o;
+    margin: 0;
     padding: 0;
-    box-sizing: none;
+    box-sizing: border-box;
     outline: none;
     border: none;
     text-decoration: none;
@@ -117,7 +117,7 @@ section{
     align-items: center;
     justify-content: space-between;
     padding: 2rem 9%;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .1);
     position: relative;
 }
 
@@ -128,7 +128,7 @@ section{
 }
 
 .header-2 .navbar a {
-    padding: 5rem 1.5rem;
+    padding: 0.5rem 1.5rem;
     font-size: 2rem;
     border-radius: 0.5rem;
     color: var(--black);
@@ -450,7 +450,7 @@ section{
 .contact form textarea{
     height: 20rem;
     resize: none;
-    width: 98%;
+    width: 100%;
 }
 
 .newsletter{
