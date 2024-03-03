@@ -54,6 +54,7 @@ section{
     text-transform: uppercase;
     padding: 1rem;
     font-size: 3.5rem;
+    padding-bottom: 2rem;
 }
 
 .heading span{
@@ -423,6 +424,34 @@ section{
     font-size: 2rem;
 } 
 
+.contact form{
+    text-align: center;
+    padding: 2rem;
+    border: 0.1rem solid rgba(0, 0, 0, .3);
+}
+
+.contact form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .inputBox input,
+.contact form textarea{
+    padding: 1rem;
+    font-size: 1.7rem;
+    background: #f7f7f7;
+    text-transform: none;
+    margin: 1rem 0;
+    border: 0.1rem solid rgba(0, 0, 0, .3);
+    width: 47%;
+}
+
+.contact form textarea{
+    height: 20rem;
+    resize: none;
+    width: 98%;
+}
 
 
 
@@ -494,6 +523,10 @@ section{
     .deal .content .count-down{
         justify-content: center;
     }
+
+    .contact form .inputBox input{
+        width: 100%;
+    }
 }
 
 @media (max-width: 450px){
@@ -525,4 +558,5 @@ section{
     .deal .content .count-down .box span{
         font-size: 1.5rem;
     }
+
 }
